@@ -1,0 +1,62 @@
+/*Celulares*/
+@media (max-width: 425px) {
+  #primary {
+    margin-top: 20%;
+  }
+
+  #primary .text-header h2 {
+    font-size: 20px;
+    letter-spacing: 1.5px !important; 
+  }
+
+  #primary .text-header h1{
+    font-size: 33px !important;
+    letter-spacing: 0px;
+  }
+
+  #primary .text-header-paragraph{
+    font-size: 18px;
+  }
+
+  #primary .buttons {
+    width: 100%;
+  }
+  
+  #primary .logo-primary{
+    text-align: center;
+  }
+}
+
+@media (max-width:375px) {
+    #primary .text-header h2 {
+        font-size: 20px;
+        letter-spacing: 0px !important; 
+      }
+    
+      #primary .text-header h1{
+        font-size: 30px !important;
+        letter-spacing: 0px;
+      }
+
+      #primary .text-header-paragraph{
+        font-size: 16px;
+      }
+    
+}
+
+@media (max-width:320px) {
+    #primary .text-header h2 {
+        font-size: 17px;
+        letter-spacing: 0px !important; 
+      }
+    
+      #primary .text-header h1{
+        font-size: 25px !important;
+        letter-spacing: 0px;
+      }
+
+      #primary .text-header-paragraph{
+        font-size: 14px;
+      }
+}
+

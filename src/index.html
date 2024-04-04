@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style/mystyle.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preload" href="LEMONMILK-Medium.woff2" as="font" type="font/woff2" crossorigin>
@@ -33,39 +34,40 @@
       </div>
     </div>
 
-    <div id="primary" class="container-fluid segunda" style="max-width: 100%; overflow: hidden;">
+    <div id="primary" class="container-fluid segunda">
       <div class="row">
-        <div class="left col-md-6 col-sm-12" style="z-index: 2; position: relative;">
+        <div class="left col-md-6 col-sm-12">
           <div class="text-header">
-            <h2 class="white mb-0" style="letter-spacing: 6px;">VENDA HOJE SEU VEÍCULO</h2>
-            <h1 class="white mt-0" style="font-size: 60px">SEM BUROCRACIA</h1>
+            <h2 class="white mb-0">VENDA HOJE SEU VEÍCULO</h2>
+            <h1 class="white mt-0 titulo">SEM BUROCRACIA</h1>
           </div>
 
           <p class="text-header-paragraph">Assumimos suas dívidas, compramos seu carro <br>
             ou moto alienado e <mark>você recebe à vista</mark></p>
 
-          <div class="d-grid gap-2 mx-auto mr-5">
-            <a href="#third"><button class="btn btn-primary amarelo buttons" type="button">QUERO RECEBER À VISTA</button></a>
+          <div class="botao d-grid gap-2 mx-auto mr-5">
+            <a href="#third"><button class="btn btn-primary amarelo buttons" type="button">QUERO RECEBER À
+                VISTA</button></a>
             <a href="https://wa.me/5511999502016"><button class="btn btn-primary cinza buttons" type="button"><i
                   class="fa fa-whatsapp"></i> GRANDE SÃO
                 PAULO</button></a>
             <a href="https://wa.me/5511999502016"><button class="btn btn-primary cinza buttons" type="button"><i
                   class="fa fa-whatsapp"></i> BAIXADA
                 SANTISTA</button></a>
-            <a href="#" class="mt-5">
+            <a href="#" class="mt-5 logo-primary">
               <img src="../img/Logo JM - White.png" alt="Logo" width="100" height="75">
             </a>
           </div>
         </div>
-        <div class="right col-6 d-none d-lg-block" style="margin-left: 35%;  z-index: 2; position: absolute;">
-          <div class="carro primeira" style="object-fit: cover; margin-top: 13%;">
+        <div class="right col-6 d-none d-lg-block">
+          <div class="carro primeira">
             <img src="../img/carro copy.png" alt="Carro" srcset="" width="1000" height="600">
           </div>
         </div>
       </div>
     </div>
 
-    <div id="second" class="container-fluid" style="z-index: 3; position: relative;">
+    <!-- <div id="second" class="container-fluid" style="z-index: 3; position: relative;">
       <div class="row">
         <div class="col-6 d-none d-lg-block">
           <div class="right col-6"
@@ -203,7 +205,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -235,16 +237,57 @@
     text-decoration: none;
   }
 
-  /* .segunda{
+
+
+
+  /* Primary */
+  #primary {
+    size: 100%;
+    background-image: url("../img/Fundo prancheta 1.png");
+    height: 100%;
+    padding: 10%;
+    max-width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .left {
+    margin-top: 5%;
     z-index: 2;
     position: relative;
   }
 
-  .primeira{
-    max-width: 100% !important; 
-    z-index: 1;
+  .right {
+    margin-left: 35%;
+    z-index: 2;
     position: absolute;
-  } */
+  }
+
+  .carro {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 13%;
+  }
+
+  #primary .text-header h2 {
+    font-family: 'LEMON MILK';
+    color: white;
+    text-align: justify;
+    letter-spacing: 6px;
+  }
+
+  #primary .text-header h1{
+    font-family: 'LEMON MILK';
+    color: white;
+    font-size: 60px
+  }
+
+
 
   .icons-face {
     color: #21065A;
@@ -266,14 +309,9 @@
     color: white;
   }
 
-  .left {
-    margin-top: 5%;
-  }
 
   .text-header {
     font-family: 'LEMON MILK';
-    color: white;
-    text-align: justify;
   }
 
   .text-header-paragraph {
@@ -281,22 +319,9 @@
     color: white;
   }
 
-  .carro {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
-  #primary {
-    size: 100%;
-    background-image: url("../img/Fundo prancheta 1.png");
-    height: 100%;
-    padding: 10%;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+
 
   #second {
 
