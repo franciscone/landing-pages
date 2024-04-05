@@ -1,62 +1,117 @@
+
 /*Celulares*/
 @media (max-width: 37.5em) {
-
   #primary .text-header h2 {
     margin-top: 30%;
     font-size: 4.9vw !important;
-    letter-spacing: 0.35vw !important; 
+    letter-spacing: 0.35vw !important;
   }
 
-  #primary .text-header h1{
+  #primary .text-header h1 {
     font-size: 8vw !important;
     letter-spacing: 0px;
   }
 
-  #primary .text-header-paragraph{
+  #primary .text-header-paragraph {
     font-size: 18px;
   }
 
   #primary .buttons {
     width: 100%;
   }
-  
-  #primary .logo-primary{
+
+  #primary .logo-primary {
     text-align: center;
+  }
+
+  #second .text-two h2 {
+    margin-left: 0% !important;
+    text-align: center;
+    font-size: 9vw !important;
+  }
+
+  #second .text-two h1 {
+    margin-left: 0% !important;
+    text-align: center;
+    font-size: 7vw !important;
+  }
+
+  #second .one {
+    margin-top: 30% !important;
+  }
+
+  #second .line-desc-two {
+    width: 80%;
+    margin-left: 15% !important;
+    font-size: 4vw !important;
+  }
+
+  #second .line-desc-two .align {
+    margin-top: 1.4vw !important;
+  }
+
+  #second .line-button{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #second .button-two {
+    margin-top: 5%;
   }
 }
 
 @media (max-width: 25em) {
-    #primary .text-header h2 {
-        margin-top: 35%;
-        font-size: 5.4vw;
-        letter-spacing: 0.36vw !important; 
-      }
-    
-      #primary .text-header h1{
-        font-size: 8vw !important;
-        letter-spacing: 0px;
-      }
+  #primary .text-header h2 {
+    margin-top: 35%;
+    font-size: 5.4vw;
+    letter-spacing: 0.36vw !important;
+  }
 
-      #primary .text-header-paragraph{
-        font-size: 16px;
-      }
-    
+  #primary .text-header h1 {
+    font-size: 8vw !important;
+    letter-spacing: 0px;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 16px;
+  }
+
+  #second img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  #second .line-desc-two {
+    font-size: 4vw !important;
+  }
+
+
 }
 
-@media (max-width:20em) {
-    #primary .text-header h2 {
-        margin-top: 40%;
-        font-size: 5.4vw;
-        letter-spacing: 0.36vw !important; 
-      }
-    
-      #primary .text-header h1{
-        font-size: 8vw !important;
-        letter-spacing: 0px;
-      }
+@media (max-width: 20em) {
+  #primary .text-header h2 {
+    margin-top: 40%;
+    font-size: 5.4vw;
+    letter-spacing: 0.36vw !important;
+  }
 
-      #primary .text-header-paragraph{
-        font-size: 14px;
-      }
+  #primary .text-header h1 {
+    font-size: 8vw !important;
+    letter-spacing: 0px;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 14px;
+  }
+
+  #second .line-desc-two {
+    font-size: 3.2vw !important;
+  }
+
+  #second img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
 }
-
