@@ -27,7 +27,7 @@
 
 @media (max-width: 25em) {
     #primary .text-header h2 {
-        margin-top: 20%;
+        margin-top: 25%;
         font-size: 5.4vw;
         letter-spacing: 0.36vw !important; 
       }
@@ -45,7 +45,7 @@
 
 @media (max-width:20em) {
     #primary .text-header h2 {
-        margin-top: 25%;
+        margin-top: 30%;
         font-size: 5.4vw;
         letter-spacing: 0.36vw !important; 
       }
