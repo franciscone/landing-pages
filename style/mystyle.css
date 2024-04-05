@@ -65,7 +65,7 @@
   }
 
   #third .formulario h1 {
-    font-size: 4.8vw !important;
+    font-size: 8vw !important;
     text-align: center;
   }
 
@@ -116,12 +116,13 @@
   }
 
   #third .formulario h1 {
-    font-size: 4.2vw !important;
+    font-size: 8vw !important;
     text-align: center;
   }
 
   #third .formulario p {
-    font-size: 4vw !important;
+    font-size: 4.8vw !important;
+    margin-top: 2% !important;
     text-align: left;
   }
 
@@ -153,7 +154,7 @@
   }
 
   #third .formulario h1 {
-    font-size: 6vw !important;
+    font-size: 6.8vw !important;
     text-align: center;
   }
 
