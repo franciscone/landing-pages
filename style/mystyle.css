@@ -27,6 +27,7 @@
 
 @media (max-width: 25em) {
     #primary .text-header h2 {
+        background-color: yellow;
         margin-top: 23%;
         font-size: 5.4vw;
         letter-spacing: 0px !important; 
