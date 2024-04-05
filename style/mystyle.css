@@ -59,6 +59,35 @@
   #second .button-two {
     margin-top: 5%;
   }
+
+  #third .formulario {
+    padding: 1vw !important;
+  }
+
+  #third .formulario h1 {
+    font-size: 4.8vw !important;
+    text-align: center;
+  }
+
+  #third .formulario p {
+    font-size: 4.5vw !important;
+    text-align: left;
+  }
+
+  #third .formulario .text-form{
+    padding-right: 0% !important;
+    display: flex;
+    align-items: center;
+    margin-right: 100px !important;
+  }
+
+  #third .formulario .text-form .line, .coluna{
+    padding-right: 0% !important;
+  }
+
+  #third .formulario .botao-form {
+   align-items: center;
+  }
 }
 
 @media (max-width: 25em) {
@@ -86,6 +115,15 @@
     font-size: 4vw !important;
   }
 
+  #third .formulario h1 {
+    font-size: 4.2vw !important;
+    text-align: center;
+  }
+
+  #third .formulario p {
+    font-size: 4vw !important;
+    text-align: left;
+  }
 
 }
 
@@ -112,6 +150,17 @@
   #second img {
     width: 25px !important;
     height: 25px !important;
+  }
+
+  #third .formulario h1 {
+    font-size: 6vw !important;
+    text-align: center;
+  }
+
+  #third .formulario p {
+    font-size: 5vw !important;
+    margin-top: 2% !important;
+    text-align: left;
   }
 
 }
