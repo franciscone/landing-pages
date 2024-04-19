@@ -1,202 +1,252 @@
-/*Celulares*/
-@media (max-width: 37.5em) {
+#second img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (max-width: 160em) {
+  #primary .carro img {
+    object-fit: contain;
+    width: 100%;
+  }
+
   #primary .text-header h2 {
-    margin-top: 25% !important;
-    font-size: 4.9vw !important;
-    letter-spacing: 0.35vw !important;
+    font-size: 1.9vw;
+    letter-spacing: 0.23vw;
   }
 
   #primary .text-header h1 {
-    font-size: 8vw !important;
+    font-size: 3.3vw;
     letter-spacing: 0px;
   }
 
   #primary .text-header-paragraph {
-    font-size: 18px !important;
+    font-size: 1vw;
+    width: 41%;
   }
 
-  #primary .buttons{
-    font-size: 4vw !important;
+  #primary img {
+    object-fit: contain;
+    width: 34%;
+}
+
+  #primary .carro {
+    margin-top: -4%;
+    height: 59%;
+    margin-left: 14%;
   }
 
-  #primary .logo-primary {
-    text-align: center;
+  #primary .left {
+    margin-top: -2%;
+  }
+
+  #primary .buttons {
+    width: 35%;
+    font-size: 1vw;
+  }
+
+  #second .cara {
+    height: 100%;
+    margin-left: -1%;
   }
 
   #second .text-two h2 {
-    margin-left: 0% !important;
+    margin-left: 0%;
     text-align: center;
-    font-size: 9vw !important;
+    font-size: 3vw;
   }
 
   #second .text-two h1 {
-    margin-left: 0% !important;
+    margin-left: 0%;
     text-align: center;
-    font-size: 7vw !important;
+    font-size: 2.5vw;
   }
 
   #second .one {
-    margin-top: 30% !important;
+    margin-top: 23%;
   }
 
   #second .line-desc-two {
-    width: 80% !important;
-    margin-left: 15% !important;
-    font-size: 4vw !important;
+    width: 70%;
+    margin-left: 23%;
+    font-size: 1.5vw;
   }
+
 
   #second .line-desc-two .align {
-    margin-top: 1.4vw !important;
+    margin-top: 1.4vw;
   }
 
-  #second .line-button{
-    margin-top: 10%;
+  #second .line-button {
+    margin-top: 3%;
     display: flex;
     justify-content: center;
   }
 
-  #second .button-two {
+  #second button {
+    font-size: 1vw;
+  }
+
+  #second .texto-direita-cara {
+    margin-bottom: 2%;
+    margin-top: 4%;
+  }
+
+  #second .icone-dois {
+    width: 3vw;
+    height: 5.5vh;
+  }
+
+  #third .formulario h1 {
+    font-size: 2.8vw;
+  }
+
+  #third .formulario p {
+    font-size: 2vw;
+    margin-top: 2%;
+    text-align: left;
+  }
+
+  #third .formulario .text-form {
+    font-size: 1vw;
+  }
+
+  #third button {
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width: 90em) {
+  #primary .carro img {
+    object-fit: contain;
+    width: 120%;
+  }
+
+  #primary .text-header h2 {
+    font-size: 1.9vw;
+    letter-spacing: 0.24vw;
+    margin-top: 4%
+  }
+
+  #primary .text-header h1 {
+    font-size: 3.3vw;
+    letter-spacing: 0px;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 1vw;
+    width: 40%;
+  }
+
+  #primary .carro {
+    margin-top: 3%;
+    height: 50%;
+    margin-left: 10%;
+  }
+
+  #primary img {
+    object-fit: contain;
+    width: 120%;
+  }
+
+  #primary .logo-primary {
+    text-align: left;
+    width: 30%
+  }
+
+  #primary .buttons {
+    font-size: 1vw;
+  }
+
+  #second .cara {
+    margin-top: 1%;
+    height: 35%;
+    margin-left: -5%;
+  }
+
+  #second .text-two h2 {
+    margin-left: 0%;
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  #second .text-two h1 {
+    margin-left: 0%;
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  #second .one {
+    margin-top: 23%;
+  }
+
+  #second .line-desc-two {
+    width: 70%;
+    margin-left: 23%;
+    font-size: 1.5vw;
+  }
+
+  #second .icone-dois {
+    width: 3vw;
+    height: 3.5vh;
+  }
+
+  #second .line-desc-two .align {
+    margin-top: 1.4vw;
+  }
+
+  #second .line-button {
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #second .texto-direita-cara {
+    margin-bottom: 1.7%;
+    margin-top: 1.5%;
+  }
+
+  #second button {
+    font-size: 1.4vw;
+  }
+
+  #third .formulario-terceiro {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  #third label {
+    font-size: 1.75vw;
+  }
+
+  #third button {
+    font-size: 1.7vw;
+  }
+}
+
+@media (max-width: 61.9375em) {
+  #primary .text-header h2 {
+    margin-top: 15%;
+    font-size: 4.8vw;
+    letter-spacing: 0.34vw;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 3.7vw;
+    width: 105%;
+  }
+
+  #primary .text-header h1 {
+    font-size: 7.8vw ;
+    letter-spacing: 0px;
+  }
+
+  #primary .botao {
     margin-top: 5%;
   }
-  
-  #second button {
-    font-size: 3.5vw !important;
-  }
 
-  #third .formulario {
-    padding: 1vw !important;
-  }
-
-  #third .formulario h1 {
-    font-size: 8vw !important;
-    text-align: center;
-  }
-
-  #third .formulario p {
-    font-size: 4.5vw !important;
-    text-align: left;
-  }
-
-  #third .formulario .text-form{
-    padding-right: 0% !important;
-    display: flex;
-    align-items: center;
-    margin-right: 100px !important;
-  }
-
-  #third .formulario .text-form .line, .coluna{
-    padding-right: 0% !important;
-  }
-
-  #third .formulario .botao-form {
-   align-items: center;
-  }
-
-  #second img {
-    width: 33px !important;
-    height: 33px !important;
-  }
-}
-
-@media (max-width: 25em) {
-  #primary .text-header h2 {
-    margin-top: 35%;
-    font-size: 5.4vw;
-    letter-spacing: 0.36vw !important;
-  }
-
-  #primary .text-header h1 {
-    font-size: 8vw !important;
-    letter-spacing: 0px;
-  }
-
-  #primary .text-header-paragraph {
-    font-size: 16px !important;
-  }
-
-  #primary .buttons{
-    font-size: 4vw !important;
-  }
-
-  #second img {
-    width: 30px !important;
-    height: 30px !important;
-  }
-
-  #second .line-desc-two {
-    font-size: 4vw !important;
-  }
-
-  #third .formulario h1 {
-    font-size: 8vw !important;
-    text-align: center;
-  }
-
-  #third .formulario p {
-    font-size: 4.8vw !important;
-    margin-top: 2% !important;
-    text-align: left;
-  }
-
-}
-
-@media (max-width: 20em) {
-  #primary .text-header h2 {
-    margin-top: 27% !important;
-    font-size: 5.4vw;
-    letter-spacing: 0.36vw !important;
-  }
-
-  #primary .text-header h1 {
-    font-size: 8vw !important;
-    letter-spacing: 0px;
-  }
-
-  #primary .text-header-paragraph {
-    font-size: 14px !important;
-  }
-
-  #second .line-desc-two {
-    font-size: 3.2vw !important;
-  }
-
-  #second img {
-    width: 25px !important;
-    height: 25px !important;
-  }
-
-  #third .formulario h1 {
-    font-size: 6.8vw !important;
-    text-align: center;
-  }
-
-  #third .formulario p {
-    font-size: 5vw !important;
-    margin-top: 2% !important;
-    text-align: left;
-  }
-
-}
-
-/* Tablet */
-@media (max-width: 57em){
-  #primary .text-header h2 {
-    margin-top: 10%;
-    font-size: 4.9vw !important;
-    letter-spacing: 0.35vw !important;
-  }
-
-  #primary .text-header-paragraph {
-    font-size: 23px;
-  }
-
-  #primary .text-header h1 {
-    font-size: 8vw !important;
-    letter-spacing: 0px;
-  }
-
-  #primary .botao{
-    margin-top: 5% !important;
+  #primary img {
+    object-fit: contain;
+    width: 333%;
   }
 
   #primary a {
@@ -205,53 +255,53 @@
   }
 
   #primary .buttons {
-    width: 80vw !important;
-    font-size: 3vw;
-  }
-
-  .teste {
-    max-width: 90vw !important;
+    width: 80vw;
+    font-size: 3vw ;
   }
 
   #second .text-two h2 {
-    margin-left: 0% !important;
+    margin-left: 0%;
     text-align: center;
     font-size: 7vw;
   }
 
   #second .text-two h1 {
-    margin-left: 0% !important;
+    margin-left: 0%;
     text-align: center;
     font-size: 5.5vw;
   }
 
   #second .one {
-    margin-top: 23% !important;
+    margin-top: 23%;
   }
+
   #second .line-desc-two {
     width: 70%;
     margin-left: 23%;
     font-size: 2.9vw;
   }
 
-
   #second .line-desc-two .align {
-    margin-top: 1.4vw !important;
+    margin-top: 1.4vw;
   }
 
-  #second .line-button{
-    margin-top: 10%;
+  #second .line-button {
+    margin-top: 5%;
     display: flex;
     justify-content: center;
   }
 
-  #second img {
-    width: 45px;
-    height: 45px;
+  #second .button-two{
+    margin-top: 5%;
+  }
+
+  #second .icone-dois {
+    width: 6vw;
+    height: 5.5vh;
   }
 
   #second button {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   #third .formulario h1 {
@@ -264,14 +314,251 @@
     text-align: center;
   }
 
-  #third .formulario .text-form{
-    padding-right: 0% !important;
+  #third .formulario .text-form {
+    padding-right: 0%;
     display: flex;
     align-items: center;
-    margin-right: 100px !important;
+    margin-right: 100px;
+    width: 100%;
   }
 
-  #third .formulario .text-form .line, .coluna{
+  #third .formulario .text-form .line,
+  .coluna {
+    padding-right: 0%;
+  }
+
+  #third label {
+    font-size: 2.5vw;
+  }
+
+  #third button {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 37.5em) {
+  #primary .text-header h2 {
+    margin-top: 25%;
+    font-size: 4.9vw;
+    letter-spacing: 0.35vw;
+  }
+
+  #primary .text-header h1 {
+    font-size: 8vw;
+    letter-spacing: 0px;
+    margin-top: 25%;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 3.4vw;
+  }
+
+  #primary .buttons {
+    font-size: 4vw;
+  }
+
+  #primary .logo-primary {
+    text-align: center;
+  }
+
+  #second .text-two h2 {
+    margin-left: 0%;
+    text-align: center;
+    font-size: 9vw;
+  }
+
+  #second .text-two h1 {
+    margin-left: 0%;
+    text-align: center;
+    font-size: 7vw;
+  }
+
+  #second .one {
+    margin-top: 30%;
+  }
+
+  #second .line-desc-two {
+    width: 80% ;
+    margin-left: 15%;
+    font-size: 4vw;
+  }
+
+  #second .line-desc-two .align {
+    margin-top: 1.4vw;
+  }
+
+  #second .line-button {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #second .button-two {
+    margin-top: 5%;
+  }
+
+  #second button {
+    font-size: 3.5vw;
+  }
+
+  #second .icone-dois {
+    width: 9vw;
+    height: 3vh;
+  }
+
+  #third .formulario {
+    padding: 1vw;
+  }
+
+  #third .formulario h1 {
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  #third .formulario p {
+    font-size: 4.5vw;
+    text-align: center;
+  }
+
+  #third .formulario .text-form {
+    padding-right: 0%;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  #third .formulario .text-form .line,
+  .coluna {
     padding-right: 0% !important;
+    padding-left: 0% !important;
+    width: 108% !important;
+    max-width: none !important;
+  }
+
+  #third .formulario .botao-form {
+    font-size: 4.5vw;
+    margin-left: 5%;
+  }
+
+  #third label {
+    font-size: 3.5vw;
+  }
+
+  #third button {
+    font-size: 3.7vw;
+  }
+
+  #third .botao-centro {
+    text-align: center;
+    margin-left: -5%;
+  }
+}
+
+@media (max-width: 25em) {
+  #primary .text-header h2 {
+    margin-top: 30%;
+    font-size: 4.1vw;
+    letter-spacing: 0.9vw;
+  }
+
+  #primary .text-header h1 {
+    font-size: 8vw;
+    letter-spacing: 0px;
+    margin-top: 25%;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 16px;
+  }
+
+  #primary .buttons {
+    font-size: 4vw;
+  }
+
+  #second img {
+    width: 30px;
+    height: 30px;
+  }
+
+  #second .line-desc-two {
+    font-size: 4vw;
+  }
+
+  #third .formulario h1 {
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  #third .formulario p {
+    font-size: 4.8vw;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  #third label {
+    font-size: 4.5vw;
+  }
+
+  #third .formulario .text-form .line,
+  .coluna {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    width: 110% !important;
+    max-width: none !important;
+  }
+
+  #third button {
+    font-size: 4.7vw;
+  }
+}
+
+@media (max-width: 20em) {
+  #primary .text-header h2 {
+    margin-top: 35%;
+    font-size: 4.9vw;
+    letter-spacing: 0.36vw;
+  }
+
+  #primary .text-header h1 {
+    font-size: 8vw;
+    letter-spacing: 0px;
+  }
+
+  #primary .text-header-paragraph {
+    font-size: 14px;
+  }
+
+  #second .line-desc-two {
+    font-size: 3.2vw;
+  }
+
+  #second img {
+    width: 25px;
+    height: 25px;
+  }
+
+  #third .formulario h1 {
+    font-size: 6.8vw;
+    text-align: center;
+    
+  }
+
+  #third .formulario p {
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  #third .formulario .text-form .line,
+  .coluna {
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+    width: 115% !important;
+    max-width: none !important;
+  }
+
+  #third button {
+    font-size: 4.7vw;
+    margin-left: 10%;
   }
 }
