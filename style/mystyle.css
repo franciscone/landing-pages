@@ -10,18 +10,19 @@
   }
 
   #primary .text-header h2 {
-    font-size: 1.9vw;
+    font-size: 1.86vw;
     letter-spacing: 0.23vw;
   }
 
   #primary .text-header h1 {
-    font-size: 3.3vw;
+    font-size: 3.2vw;
     letter-spacing: 0px;
   }
 
   #primary .text-header-paragraph {
-    font-size: 1vw;
-    width: 41%;
+    font-size: 0.9vw;
+    width: 40%;
+    text-align: justify;
   }
 
   #primary img {
@@ -50,14 +51,14 @@
   }
 
   #second .text-two h2 {
-    margin-left: 0%;
-    text-align: center;
+    margin-left: -1%;
+    text-align: left;
     font-size: 3vw;
   }
 
   #second .text-two h1 {
     margin-left: 0%;
-    text-align: center;
+    text-align: left;
     font-size: 2.5vw;
   }
 
@@ -115,6 +116,13 @@
   }
 }
 
+@media (max-width: 112.5em) {
+  #second .icone-dois {
+      width: 3vw;
+      height: 5vh;
+  }
+}
+
 @media (max-width: 90em) {
   #primary .carro img {
     object-fit: contain;
@@ -133,8 +141,8 @@
   }
 
   #primary .text-header-paragraph {
-    font-size: 1vw;
-    width: 40%;
+    font-size: 0.96vw;
+    width: 41%;
   }
 
   #primary .carro {
@@ -164,14 +172,14 @@
   }
 
   #second .text-two h2 {
-    margin-left: 0%;
-    text-align: center;
-    font-size: 5vw;
+    margin-left: -2%;
+    text-align: left;
+    font-size: 3vw;
   }
 
   #second .text-two h1 {
     margin-left: 0%;
-    text-align: center;
+    text-align: left;
     font-size: 2.5vw;
   }
 
@@ -187,7 +195,7 @@
 
   #second .icone-dois {
     width: 3vw;
-    height: 3.5vh;
+    height: 4vh;
   }
 
   #second .line-desc-two .align {
@@ -231,8 +239,8 @@
   }
 
   #primary .text-header-paragraph {
-    font-size: 3.7vw;
-    width: 105%;
+    font-size: 3.3vw;
+    width: 97%;
   }
 
   #primary .text-header h1 {
@@ -297,7 +305,7 @@
 
   #second .icone-dois {
     width: 6vw;
-    height: 3.5vh;
+    height: 4.5vh;
   }
 
   #second button {
@@ -336,6 +344,13 @@
   }
 }
 
+@media (max-width: 43.75em) {
+  #second .icone-dois {
+      width: 6vw;
+      height: 4vh;
+  }
+}
+
 @media (max-width: 37.5em) {
   #primary .text-header h2 {
     margin-top: 25%;
@@ -350,7 +365,7 @@
   }
 
   #primary .text-header-paragraph {
-    font-size: 3.4vw;
+    font-size: 3.3vw;
   }
 
   #primary .buttons {
@@ -402,8 +417,8 @@
   }
 
   #second .icone-dois {
-    width: 9vw;
-    height: 3.2vh;
+    width: 7vw;
+    height: 4vh;
   }
 
   #third .formulario {
@@ -454,6 +469,13 @@
   }
 }
 
+@media (max-width: 35em) {
+  #second .icone-dois {
+    width: 8vw;
+    height: 3.7vh;
+  }
+}
+
 @media (max-width: 25em) {
   #primary .text-header h2 {
     margin-top: 30%;
@@ -468,7 +490,7 @@
   }
 
   #primary .text-header-paragraph {
-    font-size: 16px;
+    font-size: 4.5vw;
   }
 
   #primary .buttons {
@@ -482,7 +504,7 @@
 
   #second .icone-dois {
     width: 9vw;
-    height: 2.7vh;
+    height: 3vh;
   }
 
   #second .line-desc-two {
@@ -529,10 +551,6 @@
     letter-spacing: 0px;
   }
 
-  #primary .text-header-paragraph {
-    font-size: 14px;
-  }
-
   #second .line-desc-two {
     font-size: 3.2vw;
   }
@@ -541,7 +559,11 @@
     width: 25px;
     height: 25px;
   }
-
+  
+  #second .icone-dois {
+    width: 8vw;
+    height: 2.5vh;
+  }
   #third .formulario h1 {
     font-size: 6.8vw;
     text-align: center;
